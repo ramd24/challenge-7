@@ -10,13 +10,13 @@ const Navbar = () => {
                     <Link href='/'>
                         <a className='me-5 text-navbar'>Home</a>
                     </Link>
-                    <Link href='/'>
-                        <a className='me-5 text-navbar'>Diagram</a>
+                    <Link href='/chart'>
+                        <a className='me-5 text-navbar'>Chart</a>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/input'>
                         <a className='me-5 text-navbar'>Input Box</a>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/download'>
                         <a className='me-5 text-navbar'>Download</a>
                     </Link>
                 </div>

@@ -6,11 +6,14 @@
   --bodygray: #5E5E7A;
 }
 
+*{
+  font-family: 'Spline Sans Mono', monospace;
+}
+
 .text-navbar{
   text-decoration: none;
   color: black;
   font-weight: 500;
-  font-family: 'Spline Sans Mono', monospace;
 }
 
 .text-navbar:hover{
@@ -26,10 +29,18 @@
 .home-text{
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Spline Sans Mono', monospace;
 }
 
-.home-text-body{
-  font-family: 'Spline Sans Mono', monospace;
+.footer-text{
+  font-size: 16px;
 }
 
+.card-body-input {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid var(--headgray);
+  border-radius: 10px;
+}
