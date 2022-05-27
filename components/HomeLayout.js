@@ -3,7 +3,7 @@ import React from 'react'
 const HomeLayout = () => {
   return (
       <>
-        <div className='container'>
+        <div className='container' >
             <div className='row'>
                 <div className='col-4 my-auto'>
                     <p className='home-text text-uppercase'>Ini adalah home</p>

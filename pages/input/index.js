@@ -60,7 +60,7 @@ const index = () => {
                                         <label className='form-label mt-3'>Photo</label>
                                         <div {...getRootProps({className: 'dropzone'})}>
                                             <input {...getInputProps()} />
-                                            <p>Drag and drop some files here, or click to select files</p>
+                                            <p>Drag and drop some files here or click to select files</p>
                                         </div>
                                         <ul>{files}</ul>
                                     </div>
