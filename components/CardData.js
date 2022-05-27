@@ -21,10 +21,14 @@ const CardData = () => {
       }, []);
 
       const router = useRouter()
-    
+
+
   return (
     <>
       {students.map((student) => {
+
+          const id = student.id
+    
           return(
             <div key={student.id} >
                   <div className="card" style={{width:'18rem'}}>
@@ -40,7 +44,7 @@ const CardData = () => {
                       />
                     )}
                   </Zoom>
-                      <div className="card-body">
+                      <div className="card-body" onClick={ () => router.push(`/profile/${id}`)}>
                         <p className="card-text">First Name: {student.attributes.firstname}</p>
                         <p className="card-text">Last Name: {student.attributes.lastname}</p>
                         <p className="card-text">Location: {student.attributes.location}</p>
