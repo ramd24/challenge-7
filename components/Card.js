@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <>
         <div className='container'>
-            <div className='card-body-cardlist mx-3'>
+            <div className='card-body-cardlist'>
                 <div className='wrapper'>
                     <CardData />
                 </div>
