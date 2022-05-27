@@ -5,8 +5,10 @@ const Card = () => {
   return (
     <>
         <div className='container'>
-            <div className='card-body-cardlist'>
-                <CardData />
+            <div className='card-body-cardlist mx-3'>
+                <div className='wrapper'>
+                    <CardData />
+                </div>
             </div>
         </div>
     </>
